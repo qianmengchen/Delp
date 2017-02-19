@@ -31,7 +31,7 @@ name: String
 */
 function accessMenuItem(action, name, next) {
 	var xhr = new XMLHttpRequest();
-	xhr.open("GET", 'http://192.241.229.194/?'+action+'='+name, true);
+	xhr.open("GET", 'http://159.203.226.165:8000/?'+action+'='+name, true);
 
 	xhr.send();
 	
